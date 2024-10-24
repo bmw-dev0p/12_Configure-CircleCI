@@ -1,5 +1,5 @@
 import { Schema, model, type Document } from 'mongoose';
-
+// adding type Document to the import statement
 interface IGame extends Document {
   wordId: Schema.Types.ObjectId;
   maskedWord: string;
